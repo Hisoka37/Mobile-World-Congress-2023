@@ -16,7 +16,6 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Deployment](#triangular_flag_on_post-deployment)
