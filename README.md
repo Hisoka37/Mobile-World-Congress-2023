@@ -119,6 +119,6 @@ I would like to thank Microverse for their great templates and efforts
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENESE) licensed.
+This project is [MIT](./LICENESE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
