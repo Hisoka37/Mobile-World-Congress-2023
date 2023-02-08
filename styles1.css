@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html,body{
+  overflow-x: hidden;
+}
+
 /* Mobile-version */
 .mobile-menu {
   height: 100vh;
@@ -192,11 +196,13 @@ button:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color: #434344;
+
 }
 
 .trademark p {
   font-size: 15px;
+  color: #dbd8d7;
 }
 
 .event-logo {
@@ -272,7 +278,7 @@ button:hover {
   height: 40vh;
   background-size: cover;
   margin: 2%;
-  background-image: url(./img/tokyoevents.png);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.842), rgba(15, 2, 2, 0.7) ), url(./img/tokyoevents.png);
 }
 
 .secondevent {
@@ -280,7 +286,7 @@ button:hover {
   height: 40vh;
   background-size: cover;
   margin: 2%;
-  background-image: url(./img/sydney.png);
+  background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(117, 19, 93, 0.73)), url(./img/sydney.png);
 }
 
 .grid {
@@ -490,12 +496,28 @@ button:hover {
   .firstevent {
     width: 650px;
     height: 350px;
-    background-image: url(./img/tokyo\ desktop.svg);
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(117, 19, 93, 0.73)), url(./img/tokyo\ desktop.svg);
   }
 
   .secondevent {
     width: 650px;
     height: 350px;
-    background-image: url(./img/sydneymwcdesktop.svg);
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(117, 19, 93, 0.73)), url(./img/sydneymwcdesktop.svg);
   }
+
+  .trademark {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #434344;
+  
+  }
+
+  .trademark p {
+    font-size: 18px;
+    color: #dbd8d7;
+  }
+  
+  
 }
