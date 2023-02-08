@@ -54,7 +54,7 @@
  
 
 ## 🚀 Live Demo <a name="live-demo"></a>
--[Live Demo Link] 
+-[Live Demo Link] (https://hisoka37.github.io/Mobile-World-Congress-2023/)
 
 
 
@@ -119,6 +119,6 @@ I would like to thank Microverse for their great templates and efforts
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENECE) licensed.
+This project is [MIT](./LICENESE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
