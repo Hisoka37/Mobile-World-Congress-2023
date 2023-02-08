@@ -564,4 +564,16 @@ button:hover {
   .brands .fa {
     font-size: 50px;
   }
+
+  .trademark {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+  }
+
+  .trademark p {
+    font-size: 18px;
+  }
 }
