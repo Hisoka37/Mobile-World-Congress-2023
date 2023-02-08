@@ -54,7 +54,7 @@
  
 
 ## 🚀 Live Demo <a name="live-demo"></a>
--[Live Demo Link] (https://hisoka37.github.io/Mobile-World-Congress-2023/)
+-[Live Demo Link](https://hisoka37.github.io/Mobile-World-Congress-2023/)
 
 
 
