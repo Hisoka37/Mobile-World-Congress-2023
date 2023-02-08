@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -197,7 +198,6 @@ button:hover {
   justify-content: space-around;
   align-items: center;
   background-color: #434344;
-
 }
 
 .trademark p {
@@ -278,7 +278,7 @@ button:hover {
   height: 40vh;
   background-size: cover;
   margin: 2%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.842), rgba(15, 2, 2, 0.7) ), url(./img/tokyoevents.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.842), rgba(15, 2, 2, 0.7)), url(./img/tokyoevents.png);
 }
 
 .secondevent {
@@ -511,13 +511,10 @@ button:hover {
     gap: 20px;
     align-items: center;
     background-color: #434344;
-  
   }
 
   .trademark p {
     font-size: 18px;
     color: #dbd8d7;
   }
-  
-  
 }
