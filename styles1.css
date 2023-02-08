@@ -5,9 +5,7 @@
   padding: 0;
 }
 
-
 /* Mobile-version */
-
 .mobile-menu {
   height: 100vh;
   position: fixed;
@@ -293,11 +291,7 @@ button:hover {
   align-items: center;
 }
 
-
-
-
 /* Desktop-Version  */
-
 @media only screen and (min-width: 768px) {
   ul {
     list-style-type: none;
