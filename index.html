@@ -10,17 +10,41 @@
 </head>
 <body>
     <header>
-        <ul class="contacts-links">
-            <li><a href=""><img src=".img/facebook.png" class="contacts-btn" alt="Facebook" /></li></a>
-            <li><a href=""><img src=".img/Twitter.svg" class="contacts-btn" alt="Twitter" /></li></a>
-            <li><a href="">French</a></li>
-            <li><a href="">My Page</a></li>
-            <li><a href="">Barcelona</a></li>
-        </ul>
+        <div class="topbar">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href="">French</a>
+            <a href="">My Page</a>
+            <a href="">Barcelona</a>
+        </div>
+        <img src="./img/hamburger.svg" class="menu" alt="menu">
 
-        <nav>
-            <img src="./img/hamburger.svg" class="menu" alt="menu">
+        <nav class ="Desktop-navbar">
+             
+            <a href="/index.html"><img src="./img/MWClogo.png" alt="MWC" class="mylogo" /></a>
+            
+            <ul class="desktop-menu">
+
+                <li class="about"><a class="about" href="./About.html">About</a></li>
+                <li class=""><a href="">Program</a></li>
+                <li class=""><a href="">Join</a></li>
+                <li class=""><a href="">Sponsor</a></li>
+                <li class=""><a href="">News</a></li>
+                <a href=""><button type="button">CC Campaign</button></a>
+            </ul>
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="">Program</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Sponsors</a></li>
+                <li><a href="">News</a></li>
+                <div class="closeMenu"><i><img src="./img/close_mobile_menu.png" alt="cross icone"></i></div>
+            </ul>
+        </div>
+
     </header>
 
     <section class="about-event">
@@ -36,40 +60,36 @@
         </div>
     </section>
     <section class="main-program">
-      <div class ="main-title">
+      <div class ="main-title1">
         <h2>Main Program</h2>
         <hr>
       </div>
       <div class="container">
          <div class="Program">
-            <img class =" program-pics" src="./img/5gicon.png" alt="Lecture">
+            <img class =" program-pics" src="./img/5gicon.png" alt="progrm">
             <h3> 5G </h3>
-            <p>Fixed Wireless Access (FWA) has proven to be the most successful 5G
-                 use case with FWA connections set to more than double by 2027.</p>
+            <p>Fixed Wireless Access (FWA) with FWA connections set to more than double by 2027.</p>
         </div>
         <div class="Program">
-            <img class="program-pics" src="./img/ioticon.png" alt="Lecture">
+            <img class="program-pics" src="./img/ioticon.png" alt="progrm">
             <h3> IOT </h3>
-            <p>With over 40 billion devices, the growing suite of connected devices and smart
-               technologies offers a new means to reimagine and transform physical spaces at home and in the business world. </p>
+            <p> How IOT will change our lifestyle and futur </p>
         </div>
         <div class="Program">
-            <img class="program-pics" src="./img/AIicon.png" alt="Lecture">
+            <img class="program-pics" src="./img/AIicon.png" alt="progrm">
             <h3> AI </h3>
-            <p>What does being a human mean when machines are already doing human tasks? When and where
-                 is AI improving the human abilities?  </p>
+            <p>What does being a human mean when machines are already doing human tasks? </p>
         </div>
         <div class="Program">
-            <img class="program-pics1" src="./img/6G.svg" alt="Lecture">
+            <img class="program-pics1" src="./img/6G.svg" alt="progrm">
             <h3> 6G</h3>
             <p> In telecommunications, 6G is the sixth generation mobile
-                 system standard currently under development for wireless communications technologies</p>
+                 system standard currently under development</p>
         </div>
         <div class="Program">
-            <img class="program-pics2" src="./img/web3.png" alt="Lecture">
+            <img class="program-pics2" src="./img/web3.png" alt="progrm">
             <h3> Web3 </h3>
-            <p>Web3 (also known as Web 3.0) is an idea for a new iteration of the World Wide Web which incorporates 
-                concepts such as decentralization blockchain technologies.</p>
+            <p>Web3 (also known as Web 3.0) is an idea for a new iteration of the World Wide Web which incorporates.</p>
         </div>
     </div>
      <button onclick=""> Join us for a more exciting </button>
@@ -80,8 +100,8 @@
         <hr>
     </div>
     <div class="container1">
-       <div class="speakers-grid">
-        <img src="./img/pinterestseo.jfif" class="speaker-image" alt="Pinterestceo">
+       <!-- <div class="speakers-grid"> -->
+        <!-- <img src="./img/pinterestseo.jfif" class="speaker-image" alt="Pinterestceo">
         <div class="speaker-desc">
             <h5>Bill Ready</h5>
             <h6>Pinterest/CEO</h6>
@@ -122,7 +142,7 @@
             <h5>Andy Jassy</h5>
             <h6>Amazon/CEO</h6>
             <hr>
-            <p>Andrew R. Jassy is an American business executive who is the president and chief executive officer of Amazon. .</p>
+            <p>Andrew R. Jassy is an American business executive who is the president and chief executive officer of Amazon.</p>
         </div>
     </div>
 
@@ -146,8 +166,8 @@
             <p>Daniel H. Schulman is an American business executive. He is president and CEO of PayPal,
                  formerly serving as
                   group president of enterprise growth at American Express.</p>
-        </div>
-     </div>
+        </div> -->
+     <!-- </div> -->
     </div>
  </section>
  <footer>
@@ -171,12 +191,8 @@
     <p>#MWC23 Copyright 2023 GSM Association.</p>
 
 </div>
-
 </footer>
-
-    
-
-
-    
+<script src="main.js"></script>
+<script src="./index.js"></script>   
 </body>
 </html>
