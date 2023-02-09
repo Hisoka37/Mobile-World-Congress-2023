@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Mobile-version */
+.mobile-menu {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 15;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(58, 58, 58, 0.735);
+  backdrop-filter: blur(7px);
+  transition: top 1s ease 0s;
+  display: none;
+}
+
+.mobile-menu li {
+  list-style: none;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+ul .mobile-menu {
+  margin-top: 4rem;
+}
+
+.mobile-menu li a {
+  display: block;
+  text-decoration: solid;
+  color: #fffdfd;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.closeMenu {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+}
+
+.closeMenu:hover {
+  cursor: pointer;
+  background: #dbd8d7;
+}
+
+.Desktop-navbar {
+  display: none;
+}
+
+.topbar {
+  display: none;
+}
+
+.menu {
+  padding-top: 15px;
+  padding-left: 20px;
+  height: 25px;
+}
+
+.about-event {
+  background-image: url(./img/mobile\ background.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  padding-left: 20px;
+  padding-top: 50px;
+  color: #ec5242;
+}
+
+h1 {
+  padding-left: 20px;
+  font-size: 2.1rem;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  background-image: url(./img/header\ background.jpeg);
+  color: transparent;
+  background-position: center left;
+  padding-top: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+}
+
+.main-title h2 {
+  color: #ec5242;
+  padding-top: 20px;
+}
+
+h3 {
+  padding-left: 25px;
+  font-size: 10px;
+  color: rgb(80, 79, 75);
+  width: 90%;
+}
+
+.about-mwc {
+  padding: 30px;
+  font-size: 13px;
+  color: #443e40;
+  text-align: center;
+}
+
+.location {
+  padding-top: 7px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  font-size: 18px;
+  color: rgb(2, 2, 2);
+}
+
+hr {
+  width: 100%;
+  border: 1px solid rgb(236, 50, 50);
+  margin: 3% 0 10% 0;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid #ff4848;
+  color: white;
+  width: 300px;
+  height: 50px;
+  padding: 4px 8px;
+  margin: 4%;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+button:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #434344;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 2% 0;
+  padding: 5%;
+}
+
+.brands .fa {
+  font-size: 33px;
+  color: #a09595;
+  text-align: center;
+}
+
+.trademark {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #434344;
+}
+
+.trademark p {
+  font-size: 15px;
+  color: #dbd8d7;
+}
+
+.event-logo {
+  width: 130px;
+  height: 100px;
+  padding-left: 20px;
+}
+
+.main-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-home h3 {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.main-home hr {
+  width: 35%;
+}
+
+.main-home p {
+  width: 80%;
+  padding-bottom: 40px;
+  color: #ec5242;
+  text-align: center;
+}
+
+.logoimage {
+  height: 200px;
+  width: 300px;
+  border: 3px solid #0e0d0d;
+}
+
+.pastevents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.past {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past h4 {
+  font-size: 23px;
+}
+
+.past p {
+  width: 90%;
+  padding-bottom: 20px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.past hr {
+  width: 30%;
+}
+
+.mwc-past {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.firstevent {
+  width: 75vw;
+  height: 40vh;
+  background-size: cover;
+  margin: 2%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.842), rgba(15, 2, 2, 0.7)), url(./img/tokyoevents.png);
+}
+
+.secondevent {
+  width: 75vw;
+  height: 40vh;
+  background-size: cover;
+  margin: 2%;
+  background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(117, 19, 93, 0.73)), url(./img/sydney.png);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+/* Desktop-Version  */
+@media only screen and (min-width: 768px) {
+  ul {
+    list-style-type: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .topbar {
+    background: rgb(14, 14, 14);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4%;
+    gap: 15px;
+  }
+
+  .topbar a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .Desktop-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 29%;
+    align-items: center;
+  }
+
+  .desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;
+    padding-right: 15px;
+  }
+
+  .desktop-menu button {
+    color: black;
+    width: 150px;
+  }
+
+  .desktop-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+
+  li .about {
+    color: #ff4848;
+  }
+
+  .mylogo {
+    width: 148px;
+    height: 121px;
+    padding-left: 100px;
+  }
+
+  .about-event {
+    background-image: url(./img/home-bg-desk.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h4 {
+    padding-left: 200px;
+    padding-top: 120px;
+    color: #ec5242;
+    font-size: 40px;
+  }
+
+  h1 {
+    padding-left: 50px;
+    font-size: 90px;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    background-image: url(./img/header\ background.jpeg);
+    color: transparent;
+    background-position: center left;
+    text-align: center;
+  }
+
+  h3 {
+    padding-left: 120px;
+    color: rgb(80, 79, 75);
+    font-size: 25px;
+  }
+
+  .about-mwc {
+    padding: 30px;
+    font-size: 19px;
+    color: #443e40;
+    width: 600px;
+    padding-left: 200px;
+    padding-bottom: 65px;
+  }
+
+  .location {
+    padding-top: 7px;
+    padding-left: 300px;
+    padding-bottom: 80px;
+    font-size: 35px;
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+  }
+
+  hr {
+    width: 100%;
+    border: 1px solid rgb(236, 50, 50);
+    margin: 1% 0 4% 0;
+  }
+
+  .main-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-home h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 1200px;
+  }
+
+  .main-home hr {
+    width: 10%;
+    padding-top: 0;
+  }
+
+  .main-home p {
+    width: 40%;
+    padding-bottom: 40px;
+    color: #272a31;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .logoimage {
+    height: 300px;
+    width: 600px;
+    border: 3px solid #0e0d0d;
+  }
+
+  .companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 3%;
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  .brands .fa {
+    font-size: 50px;
+  }
+
+  .mwc-past {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pastevents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .past {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .past h4 {
+    font-size: 30px;
+    padding-left: 0;
+  }
+
+  .past p {
+    width: 90%;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .past hr {
+    width: 30%;
+  }
+
+  .firstevent {
+    width: 650px;
+    height: 350px;
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(117, 19, 93, 0.73)), url(./img/tokyo\ desktop.svg);
+  }
+
+  .secondevent {
+    width: 650px;
+    height: 350px;
+    background-image: linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(117, 19, 93, 0.73)), url(./img/sydneymwcdesktop.svg);
+  }
+
+  .trademark {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #434344;
+  }
+
+  .trademark p {
+    font-size: 18px;
+    color: #dbd8d7;
+  }
+}
