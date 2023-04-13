@@ -28,24 +28,24 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mobile-World-Congress-2023] <a name="about-project"></a>
+# 📖 Mobile World Congress 2023 <a name="about-project"></a>
 
  
 
-**[Mobile-World-Congress-2023]** is 
+ is a conference website that provides information about upcoming conferences. It includes details about the conference speakers, conference program, and schedule.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-**[HTM]**
-**[CSS]**
-**[JAVASCRIPT]**
+- HTML
+- CSS
+- JAVASCRIPT
 
 
 ### Key Features <a name="key-features"></a>
 
 
-- **[Responsive Design]**
-- **[speed and SEO friendly ]**
+- Responsive Design
+- SEO friendly 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -54,10 +54,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 -[Live Demo Link](https://hisoka37.github.io/Mobile-World-Congress-2023/)
-
-## 🚀 Documenttion <a name="live-demo"></a>
--[Website Documentation] 
-
 
 
 
@@ -91,8 +87,8 @@
 
  
 
-- [ ] **[use react to make it more responsive and well designed]**
-- [ ] **[Animations]**
+- [ ] Use react to make it more responsive and well designed.
+- [ ] Animations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
